@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>确认订单</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/rem.css">
+    <link rel="stylesheet" href="css/confirm.css">
+</head>
+<body>
+<!-- 头部开始 -->
+<header>
+    <div class="container">
+        <a href="shop.html">
+            <img src="img/confirm/pass.png" alt="">
+        </a>
+        <h5>订单配送至</h5>
+        <h4>君怡小区E座2单元1201</h4>
+        <h6>小胖先生（女士）<span>13803561438</span></h6>
+    </div>
+</header>
+<!-- 头部结束 -->
+<!-- 主体开始 -->
+<main>
+    <div class="container">
+        <h4>送达时间<span>尽快送达(12:30)</span><i>&gt</i></h4>
+        <h5>支付方式<span>账户余额</span><i>&gt</i></h5>
+        <div class="one">
+            <h3>韩式烤肉拌饭</h3>
+            <div class="dan1">
+                <img src="img/confirm/hanshikaorou.jpg" alt="">
+                <b>韩式烤肉</b>
+                <div class="m_">×1 ￥18</div>
+            </div>
+            <div class="dan2">
+                <img src="img/confirm/hanshikaorou.jpg" alt="">
+                <b>韩式烤肉</b>
+                <div class="m_">×1 ￥18</div>
+            </div>
+            <h6>红包<span>无可用红包</span></h6>
+            <h2>合计<b>￥34</b><span>(满25减7，令需运费5元)</span></h2>
+            <h1>订单备注<span class="no">无</span><i>&gt</i></h1>
+            <h1>餐具分数<span>未选择</span><i>&gt</i></h1>
+            <div class="money">￥34</div>
+            <a>
+                <div class="con">确认支付</div>
+            </a>
+        </div>
+        <div class="tow">
+            <h3>选择支付方式<b>×</b></h3>
+            <ul>
+                <li>
+                    <img src="img/confirm/zhanghu.png" alt="">
+                    <h2>账户余额</h2>
+                </li>
+                <li>
+                    <img src="img/confirm/weixin.png" alt="">
+                    <h2>微信支付</h2>
+                </li>
+                <li>
+                    <img src="img/confirm/zhifubao.png" alt="">
+                    <h2>支付宝支付</h2>
+                </li>
+                <a href="fingerprint.html">
+                    <li>
+                        <img src="img/confirm/yinhangka.png" alt="">
+                        <h2>银行卡支付</h2>
+                    </li>
+                </a>
+                <li>
+                    <img src="img/confirm/disanfang.png" alt="">
+                    <h2>其它第三方支付</h2>
+                </li>
+            </ul>
+        </div>
+    </div>
+</main>
+<!-- 主题结束 -->
+<script src="js/jquery-3.3.1.min.js"></script>
+<script>
+    $(function () {
+        $(".one .con").click(function () {
+            $(".one").css("display","none");
+            $(".tow").css("display","block");
+        })
+    })
+</script>
+</body>
+</html>

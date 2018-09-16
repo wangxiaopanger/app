@@ -1,0 +1,155 @@
+/*
+* @Author: 13425
+* @Date:   2018-08-15 22:06:18
+* @Last Modified by:   13425
+* @Last Modified time: 2018-08-15 23:10:22
+*/
+header{
+	width: 100%;
+	height: .91rem;
+	background-image: -webkit-linear-gradient(left, #e9562a, #d75e16);
+	display: flex;
+	justify-content: space-between;
+}
+header a{
+	display: block;
+	width: .79rem;
+	height: .91rem;
+}
+header a img{
+	width: .4rem;
+	height: .6rem;
+	margin-left: .24rem;
+	margin-bottom: .22rem;
+}
+header h4{
+	font-size: .4rem;
+	color: #fff;
+	line-height: .91rem;
+	font-weight: 400;
+}
+header img{
+	width: .44rem;
+	height: .50rem;
+	margin-right: .24rem;
+	margin-top: .24rem;
+}
+main .top{
+	height: 2.82rem;
+	margin-top: .93rem;
+	border-radius: .3rem;
+	background: #e0581f;
+	box-shadow: 0 .03rem .09rem #e0581f;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main .top .left{
+	width: 3.27rem;
+	height: 2.21rem;
+	border-radius: .3rem;
+	background: #e17045;
+	background-image: url('../img/over/hanshikaorou.jpg');
+	background-size: cover;
+}
+main .top .right{
+	width: 3.27rem;
+	height: 2.21rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+main .top .right h5{
+	font-size: .4rem;
+	color: #fff;
+	font-weight: 100;
+	padding-left: .4rem;
+}
+main .top .right p{
+	font-size: .24rem;
+	color: #fff;
+	font-weight: 100;
+	padding-left: .4rem;
+}
+main .pass{
+	width: 2.45rem;
+	height: .83rem;
+	background: #e36835;
+	border-radius: .4rem;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .83rem;
+	color: #fff;
+	margin-top: 1.28rem;
+	float: left;
+	margin-left: .51rem;
+}
+main .next{
+	width: 2.45rem;
+	height: .83rem;
+	background: #e36835;
+	border-radius: .4rem;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .83rem;
+	color: #fff;
+	margin-top: 1.28rem;
+	float: right;
+	margin-right: .51rem;
+}
+main .title{
+	height: .67rem;
+	background-image: url('../img/over/shangjiatuijian.png');
+	background-size: cover;
+	margin-top: 3.46rem;
+}
+main .bottom{
+	height: 2.95rem;
+	display: flex;
+	justify-content: space-around;
+	padding-top: .66rem;
+}
+main .bottom .left{
+	width: 2.43rem;
+	height: 2.2rem;
+	border-radius: .3rem;
+	background: #e0581f;
+	box-shadow: 0 .03rem .04rem #e0581f;
+	background-image: url('../img/over/shiguobanfan.jpg');
+	background-size: 2.43rem 1.65rem;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+}
+main .bottom .left span{
+	font-size: .28rem;
+	color: #fff;
+	line-height: 3.7rem;
+}
+main .bottom .left b{
+	font-size: .4rem;
+	color: #fff;
+	line-height: 3.8rem;
+}
+main .bottom .right{
+	width: 2.43rem;
+	height: 2.2rem;
+	border-radius: .3rem;
+	background: #e0581f;
+	box-shadow: 0 .03rem .04rem #e0581f;
+	background-image: url('../img/over/danrencan.jpg');
+	background-size: 2.43rem 1.65rem;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+}
+main .bottom .right span{
+	font-size: .28rem;
+	color: #fff;
+	line-height: 3.7rem;
+}
+main .bottom .right b{
+	font-size: .4rem;
+	color: #fff;
+	line-height: 3.8rem;
+}

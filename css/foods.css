@@ -1,0 +1,205 @@
+/*
+* @Author: 13425
+* @Date:   2018-08-12 17:35:48
+* @Last Modified by:   13425
+* @Last Modified time: 2018-08-14 00:27:52
+*/
+header{
+	width: 100%;
+	height: .91rem;
+	background-image: -webkit-linear-gradient(left, #e9562a, #d75e16);
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+}
+header a{
+	display: block;
+	width: .79rem;
+	height: .91rem;
+}
+header a img{
+	width: .4rem;
+	height: .6rem;
+	margin-left: .24rem;
+	margin-bottom: .22rem;
+}
+header h4{
+	font-size: .4rem;
+	color: #fff;
+	line-height: .91rem;
+	font-weight: 400;
+}
+header img{
+	width: .44rem;
+	height: .50rem;
+	margin-right: .24rem;
+	margin-top: .24rem;
+}
+main{
+	width: 100%;
+	height: 12.7rem;
+	overflow: scroll;
+}
+main .container{
+	width: 7.02rem;
+	height: 11.81rem;
+	margin: 0 .24rem;
+}
+main .food{
+	height: 4.07rem;
+	border-radius: .4rem;
+	box-shadow: 0 .03rem .04rem #e0581f;
+	margin-top: 1.18rem;
+	background-image: url('../img/foods/hanshikaorou.jpg');
+	background-size: cover;
+	background-position: 0 -.4rem;
+}
+main h3{
+	color: #e0581f;
+	font-size: .4rem;
+	display: flex;
+	justify-content: space-between;
+	padding-left: .38rem;
+	padding-right: .45rem;
+	margin-top: .3rem;
+	margin-bottom: .23rem;
+}
+main pre{
+	font-size: .24rem;
+	color: #e0581f;
+	padding-left: .38rem;
+}
+main .title1{
+	height: .67rem;
+	background-image: url('../img/foods/shangpinpingjia.png');
+	background-size: cover;
+}
+main .title{
+	height: .77rem;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+main .title span{
+	font-size: .22rem;
+	color: #e0581f;
+	margin-right: .2rem;
+	font-weight: 100;
+}
+main .title .look{
+	width: 1.29rem;
+	height: .38rem;
+	border-radius: .16rem;
+	background: #e0581f;
+	color: #fff;
+	font-size: .22rem;
+	text-align: center;
+	line-height: .38rem;
+}
+main .title2{
+	height: .67rem;
+	background-image: url('../img/foods/shangpinpeiliao.png');
+	background-size: cover;
+}
+main p{
+	font-size: .22rem;
+	color: #e0581f;
+	font-weight: 100;
+	margin: .1rem 0;
+}
+main .title3{
+	height: .67rem;
+	background-image: url('../img/foods/shangjiatuijian.png');
+	background-size: cover;
+}
+main .bottom{
+	height: 2.43rem;
+	display: flex;
+	justify-content: space-around;
+	padding-top: .22rem;
+}
+main .bottom .left{
+	width: 2.06rem;
+	height: 1.87rem;
+	border-radius: .3rem;
+	background: #e0581f;
+	box-shadow: 0 .03rem .04rem #e0581f;
+	background-image: url('../img/foods/shiguobanfan.jpg');
+	background-size: 2.06rem 1.31rem;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+}
+main .bottom .left span{
+	font-size: .24rem;
+	color: #fff;
+	line-height: 3.1rem;
+}
+main .bottom .left b{
+	font-size: .34rem;
+	color: #fff;
+	line-height: 3.1rem;
+}
+main .bottom .right{
+	width: 2.06rem;
+	height: 1.87rem;
+	border-radius: .3rem;
+	background: #e0581f;
+	box-shadow: 0 .03rem .04rem #e0581f;
+	background-image: url('../img/foods/danrencan.jpg');
+	background-size: 2.06rem 1.31rem;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-around;
+}
+main .bottom .right span{
+	font-size: .20rem;
+	color: #fff;
+	line-height: 3.1rem;
+}
+main .bottom .right b{
+	font-size: .34rem;
+	color: #fff;
+	line-height: 3.1rem;
+}
+footer{
+	width: 100%;
+	height: .62rem;
+	box-shadow: 0 -.02rem .04rem #e0581f;
+	position: fixed;
+	bottom: 0;
+}
+footer img{
+	width: .42rem;
+	height: .42rem;
+	position: absolute;
+	left: .19rem;
+	top: -.26rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+footer .left{
+	width: 1.28rem;
+	height: .62rem;
+	float: left;
+	margin-left: .79rem;
+}
+footer .left h5{
+	font-size: .24rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+footer .left h6{
+	font-size: .22rem;
+	color: rgba(0, 0, 0, 0.8);
+}
+footer .right{
+	width: 1.57rem;
+	height: .62rem;
+	float: right;
+	margin-right: .24rem;
+	font-size: .24rem;
+	text-align: center;
+	line-height: .62rem;
+	background: rgba(0, 0, 0, 0.8);
+	color: #fff;
+}

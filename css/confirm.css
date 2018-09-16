@@ -1,0 +1,253 @@
+/*
+* @Author: 13425
+* @Date:   2018-08-14 09:29:52
+* @Last Modified by:   13425
+* @Last Modified time: 2018-08-14 23:49:23
+*/
+header{
+	width: 100%;
+	height: 3.74rem;
+	background-image: -webkit-linear-gradient(left, #e9562a, #d75e16);
+}
+header a{
+	width: .79rem;
+	height: .91rem;
+}
+header a img{
+	width: .4rem;
+	height: .6rem;
+	margin-left: .13rem;
+	margin-top: .17rem;
+}
+header h5{
+	font-size: .34rem;
+	color: #fff;
+	font-weight: 400;
+	padding-left: .4rem;
+	margin-bottom: .3rem;
+}
+header h4{
+	font-size: .4rem;
+	color: #fff;
+	font-weight: 500;
+	padding-left: .4rem;
+	margin-bottom: .3rem;
+}
+header h6{
+	font-size: .22rem;
+	color: #fff;
+	padding-left: .4rem;
+	font-weight: 400;
+}
+header h6 span{
+	padding-left: .45rem;
+}
+main{
+	height: 9.6rem;
+	position: relative;
+}
+main .container{
+	position: absolute;
+	top: -.48rem;
+	left: .24rem;
+	border-radius: .1rem;
+	background: #fff;
+}
+main h4{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 100;
+	padding-top: .1rem;
+	line-height: .86rem;
+	padding-left: .57rem;
+	border-bottom: .01rem solid #e17045;
+}
+main h4 span{
+	color: #e05921;
+	padding-left: 2rem;
+}
+main h4 i{
+	color: #e05921;
+}
+main h5{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 100;
+	padding-top: .1rem;
+	line-height: .6rem;
+	padding-left: .57rem;
+}
+main h5 span{
+	color: #e05921;
+	padding-left: 3rem;
+}
+main h5 i{
+	color: #e05921;
+}
+main .one h3{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 700;
+	padding-left: .57rem;
+	line-height: .86rem;
+	color: #e05921;
+	border-bottom: .01rem solid #e17045;
+}
+main .one .dan1{
+	height: 1.61rem;
+}
+main .one .dan2{
+	height: 1.61rem;
+}
+main .one img{
+	width: 2.08rem;
+	height: 1.41rem;
+	margin-top: .2rem;
+	margin-left: .17rem;
+	display: block;
+	float: left;
+}
+main .one b{
+	font-size: .34rem;
+	color: #e05921;
+	margin-left: .18rem;
+	font-weight: 400;
+}
+main .one .m_{
+	margin-top: .2rem;
+	height: 1.41rem;
+	line-height: 1.41rem;
+	font-size: .34rem;
+	color: #e05921;
+	font-weight: 400;
+	float: right;
+	margin-right: .43rem;
+}
+main .one h6{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 100;
+	padding-top: .1rem;
+	line-height: .5rem;
+	padding-left: .57rem;
+	border-top: .01rem solid #e17045;
+	margin-top: .2rem;
+}
+main .one h6 span{
+	font-size: .24rem;
+	padding-left: 4rem;
+}
+main .one h2{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 100;
+	padding-top: .1rem;
+	line-height: .5rem;
+	padding-left: .57rem;
+	border-top: .01rem solid #e17045;
+	margin-top: .2rem;
+}
+main .one h2 b{
+	color: #e05921;
+	margin-left: 1.9rem;
+}
+main .one h2 span{
+	font-size: .24rem;
+}
+main .one h1{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 100;
+	padding-top: .1rem;
+	line-height: .5rem;
+	padding-left: .57rem;
+	border-bottom: .01rem solid #e17045;
+}
+main .one h1 .no{
+	font-size: .24rem;
+	padding-left: 4.06rem;
+}
+main .one h1 i{
+	color: #e05921;
+}
+main .one h1{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 100;
+	padding-top: .1rem;
+	line-height: .5rem;
+	padding-left: .57rem;
+}
+main .one h1 span{
+	font-size: .24rem;
+	padding-left: 3.6rem;
+}
+main .one h1 i{
+	color: #e05921;
+}
+main .one .money{
+	font-size: .4rem;
+	color: #e05921;
+	margin-top: .6rem;
+	font-weight: 500;
+	float: left;
+}
+main .one .con{
+	width: 1.99rem;
+	height: .71rem;
+	background: #e05921;
+	border-radius: .36rem;
+	color: #fff;
+	font-size: .4rem;
+	text-align: center;
+	line-height: .71rem;
+	float: right;
+	margin-top: .47rem;
+}
+main .tow{
+	display: none;
+}
+main .tow h3{
+	width: 6.68rem;
+	margin-left: .17rem;
+	font-size: .34rem;
+	font-weight: 600;
+	padding-top: .1rem;
+	line-height: .86rem;
+	border-bottom: .01rem solid #e17045;
+	text-align: center;
+}
+main .tow h3 b{
+	font-size: .4rem;
+	color: #e05921;
+	font-weight: 100;
+	position: fixed;
+	right: .6rem;
+}
+main .tow ul{
+	padding-top: .67rem;
+}
+main .tow ul li{
+	display: flex;
+	height: 1.14rem;
+	padding-left: .74rem;
+}
+main .tow ul li img{
+	width: .49rem;
+	height: .54rem;
+	margin-top: .3rem;
+}
+main .tow ul li h2{
+	font-size: .34rem;
+	font-weight: 500;
+	margin-left: .37rem;
+	line-height: 1.14rem;
+	color: #000;
+}

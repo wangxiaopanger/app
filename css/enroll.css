@@ -1,0 +1,150 @@
+/*
+* @Author: 13425
+* @Date:   2018-08-15 14:04:46
+* @Last Modified by:   13425
+* @Last Modified time: 2018-08-17 10:47:57
+*/
+body{
+	background-image: url('../img/enroll/back.png');
+}
+.enroll{
+	width: 2.17rem;
+	height: .78rem;
+	border-radius: .4rem;
+	background: rgba(255, 255, 255, .5);
+	color: #dc5c1c;
+	font-size: .34rem;
+	text-align: center;
+	line-height: .78rem;
+	margin-top: .56rem;
+	margin-left: 4.91rem;
+}
+.user{
+	width: 6.3rem;
+	height: 1.35rem;
+	border-radius: .7rem;
+	margin: 3.16rem .6rem 0;
+	background: rgba(255, 255, 255, .5);
+	display: flex;
+	align-items: center;
+}
+.user input{
+	width: 3.12rem;
+	height: .55rem;
+	background: none;
+	border: none;
+	margin-left: .3rem;
+	border-bottom: .01rem solid #fff;
+	outline: none;
+}
+.user input::-webkit-input-placeholder{
+	font-size: .34rem;
+	color: #fff;
+	line-height: .52rem;
+}
+.user img{
+	width: .76rem;
+	height: .74rem;
+	margin-left: .33rem;
+}
+.ver{
+	width: 3.85rem;
+	height: 1.35rem;
+	border-radius: .7rem;
+	margin: .47rem 0 0 .6rem;
+	float: left;
+	background: rgba(255, 255, 255, .5);
+	display: flex;
+	align-items: center;
+}
+.ver input{
+	width: 2rem;
+	height: .55rem;
+	background: none;
+	border: none;
+	margin-left: .3rem;
+	border-bottom: .01rem solid #fff;
+	outline: none;
+}
+.ver input::-webkit-input-placeholder{
+	font-size: .34rem;
+	color: #fff;
+	line-height: .52rem;
+}
+.ver img{
+	width: .76rem;
+	height: .74rem;
+	margin-left: .33rem;
+}
+.ver1{
+	width: 2.23rem;
+	height: 1.35rem;
+	border-radius: .55rem;
+	background: rgba(255, 255, 255, .5);
+	margin: .47rem .6rem 0 0;
+	color: #dc5c1c;
+	font-size: .34rem;
+	text-align: center;
+	line-height: 1.35rem;
+	float: right;
+	font-weight: 900;
+}
+.pass{
+	width: 6.3rem;
+	height: 1.35rem;
+	border-radius: .7rem;
+	margin: 2.33rem .6rem 0;
+	background: rgba(255, 255, 255, .5);
+	display: flex;
+	align-items: center;
+}
+.pass input{
+	width: 3.12rem;
+	height: .55rem;
+	background: none;
+	border: none;
+	margin-left: .3rem;
+	border-bottom: .01rem solid #fff;
+	outline: none;
+}
+.pass input::-webkit-input-placeholder{
+	font-size: .34rem;
+	color: #fff;
+	line-height: .52rem;
+}
+.pass img{
+	width: .76rem;
+	height: .74rem;
+	margin-left: .33rem;
+}
+.sign{
+	width: 2.17rem;
+	height: .78rem;
+	border-radius: .4rem;
+	background: rgba(255, 255, 255, .5);
+	color: #dc5c1c;
+	font-size: .34rem;
+	text-align: center;
+	line-height: .78rem;
+	margin: 1rem 2.49rem 0;
+}
+.qq{
+	width: 1rem;
+	height: 1rem;
+	border-radius: .5rem;
+	background-image: url('../img/sign/QQ_29.png');
+	background-size: cover;
+	float: left;
+	margin-top: .42rem;
+	margin-left: 1.49rem;
+}
+.weixin{
+	width: 1rem;
+	height: 1rem;
+	border-radius: .5rem;
+	background-image: url('../img/sign/weixin.png');
+	background-size: cover;
+	float: right;
+	margin-top: .42rem;
+	margin-right: 1.49rem;
+}
